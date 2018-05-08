@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chen-umps/chen-umps.iml" filepath="$PROJECT_DIR$/chen-umps/chen-umps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chen-umps/chen-upms-common/chen-upms-common.iml" filepath="$PROJECT_DIR$/chen-umps/chen-upms-common/chen-upms-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chen-umps/chen-upms-rpc-service/chen-upms-rpc-service.iml" filepath="$PROJECT_DIR$/chen-umps/chen-upms-rpc-service/chen-upms-rpc-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chenqi-upms/chenqi-upms-rpc-service/chenqi-upms-rpc-service.iml" filepath="$PROJECT_DIR$/chenqi-upms/chenqi-upms-rpc-service/chenqi-upms-rpc-service.iml" />
+    </modules>
+  </component>
+</project>
