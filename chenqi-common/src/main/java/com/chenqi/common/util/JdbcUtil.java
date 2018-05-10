@@ -11,6 +11,7 @@ import java.util.Map;
  * JDBC工具类
  * Created by chenqi on 2018年5月8日14:51:02
  */
+@SuppressWarnings("unckecked")
 public class JdbcUtil {
     //定义数据库的连接
     private Connection conn;
@@ -48,7 +49,7 @@ public class JdbcUtil {
     }
 
     //查询多条记录
-    public List<Map> selectByparams(String sql, List params) throws SQLException{
+    public List<Map> selectByParams(String sql, List params) throws SQLException{
         List<Map> list = new ArrayList<>();
         int index = 1;
         pstmt = conn.prepareStatement(sql);
@@ -91,8 +92,4 @@ public class JdbcUtil {
             System.out.println("==================释放数据库连接!!!==============");
         }
     }
-
-//    public static void main(String[] args){
-//        JdbcUtil ju = new JdbcUtil("com.mysql.jdbc.Driver", "jdbc:mysql://127.0.0.1:3306/zheng?useUnicode=true&characterEncoding=utf-8&autoReconnect=true", "root", "199212");
-//    }
 }

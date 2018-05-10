@@ -19,6 +19,12 @@
       <module name="chen-upms-rpc-service" target="1.7" />
       <module name="chenqi-umps" target="1.7" />
       <module name="chenqi-upms-rpc-service" target="1.7" />
+      <module name="javaweb-resource" target="1.7" />
+      <module name="mybatis-generator" target="1.7" />
+      <module name="mybatis_test" target="1.7" />
+      <module name="spring-mvc" target="1.7" />
+      <module name="springmvc" target="1.7" />
+      <module name="testjavawebresources" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

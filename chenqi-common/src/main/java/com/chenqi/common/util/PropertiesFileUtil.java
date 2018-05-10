@@ -1,5 +1,7 @@
 package com.chenqi.common.util;
 
+import org.apache.velocity.texen.util.PropertiesUtil;
+
 import java.util.Date;
 import java.util.HashMap;
 import java.util.MissingResourceException;
@@ -83,4 +85,9 @@ public class PropertiesFileUtil {
     }
 
     public Date getLoadTime() { return loadTime; }
+
+
+//    public static void main(String[] args){
+//        System.out.println(PropertiesFileUtil.getInstance("generator").get("generator.jdbc.username"));
+//    }
 }

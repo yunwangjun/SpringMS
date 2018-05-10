@@ -26,7 +26,7 @@ public class AESUtil {
      * 5. 内容加密
      * 6. 返回字符串
      */
-    public static String aseEncode(String content) {
+    public static String aesEncode(String content) {
         try {
             //1. 构造密钥生成器，指定为AES算法，不区分大小写
             KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
@@ -118,8 +118,8 @@ public class AESUtil {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-//        } catch (IllegalBlockSizeException e) {
-//            throw new RuntimeException("兄弟，配置文件中的密码需要使用AES加密，请使用com.chenqi.common.util.AESUtil工具类修改这些值！");
+        } catch (IllegalBlockSizeException e) {
+            throw new RuntimeException("兄弟，配置文件中的密码需要使用AES加密，请使用com.chenqi.common.util.AESUtil工具类修改这些值！");
 //            //e.printStackTrace();
         } catch (BadPaddingException e) {
             e.printStackTrace();
